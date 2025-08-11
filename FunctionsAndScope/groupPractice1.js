@@ -1,10 +1,10 @@
-// Task 1: Write a function to generate an attendee badge given a name and role (e.g., "speaker," "attendee").
+// Task 1: Write a function to make an attendee badge given a name and role (e.g., "speaker," "attendee").
 //Example Output: "Name: Alice, Role: Speaker"
 
 /*
  Generates an attendee badge given a name and a role
 */
-function generateBadge(name, role){
+function makeBadge(name, role){
     return `Name: ${name}, Role: ${role}`;
 }
 
@@ -39,8 +39,8 @@ function isValidEmail(email){
 
 
 function main(){
-    console.log("--- Generate Badge ---");
-    console.log(generateBadge("Bob", "Builder"));
+    console.log("--- make Badge ---");
+    console.log(makeBadge("Bob", "Builder"));
     console.log();
 
     console.log("--- Calculate Total Cost ---");
